@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- font awesome link -->
+    <link rel="stylesheet" type="text/css" href="css/all.css">
+    <!-- CSS links -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    
+    <title>Bootstrap v4.5</title>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p class="para"> BOOTSTRAP COMPONENTS </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-2">
+            <a href="index.html">
+              <img src="images/slider.jpg" alt="" style="width: 100px;">
+            </a>
+          </div>
+          <div class="col md">
+            <ul class="list-unstyled  float-right">
+              <a class="btn btn-outline-primary" href="index.html" role="button">Home</a>
+              <a class="btn btn-outline-danger" href="collaspe.html" role="button">Collapse</a>
+              <a class="btn btn-outline-success" href="form.html" role="button">Form</a>
+              <div class="btn-group">
+                <button type="button" class="btn btn-outline-danger active">Media</button>
+                <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item btn btn-danger" href="media.html">Media object</a>
+                  <a class="dropdown-item btn btn-danger active" href="modal.html">Modal</a> 
+                </div>
+              </div>
+              <a class="btn btn-outline-warning" href="input.html" role="button">Input group</a>
+              <a class="btn btn-outline-info" href="jumbotron.html" role="button">Jumbotron</a>
+              <a class="btn btn-outline-dark" href="list.html" role="button">List group</a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+             <h2 class="heading">Varying modal content</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Open modal for @mdo</button>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat">Open modal for @fat</button>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Open modal for @getbootstrap</button>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Recipient:</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                      </div>
+                      <div class="form-group">
+                        <label for="message-text" class="col-form-label">Message:</label>
+                        <textarea class="form-control" id="message-text"></textarea>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Send message</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- JS links -->
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
